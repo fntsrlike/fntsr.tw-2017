@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <article>
+    <section class="block">
       <img class="avatar" src="http://www.gravatar.com/avatar/c6f3d51bca936e1d0ab0ee9e091545f9.jpg?s=100&r=g"/>
       <section>
         <p>
@@ -34,13 +34,13 @@
         <i class="fa fa-slideshare"></i>
       </a>
       </section>
-    </article>
-    <article>
+    </section>
+    <section class="block">
       Ruby / Ruby on Rails / PHP / Laravel /
       JavaScript / node.js / HTML / CSS /
       Docker / Git / C / Visual C#
-    </article>
-    <article>
+    </section>
+    <section class="block">
       <section>
         <p>
           雖然不知到您為何拜訪此頁面，或許...您對我這個人有些好奇？
@@ -106,8 +106,8 @@
           </li>
         </ul>
       </section>
-    </article>
-    <article>
+    </section>
+    <section class="block">
       <section>
         <p>
           除此之外，這裡也有些我參與的專案，希望能幫助我們的生活或工作更加簡單。 = )
@@ -160,8 +160,8 @@
       <section>
         詳細說明可參考我的 <router-link to="/collections">作品集</router-link>。
       </section>
-    </article>
-    <article>
+    </section>
+    <section class="block">
       <section>
         <p>
           問與答
@@ -179,8 +179,8 @@
           來自於青少時為自己取的網路名稱「月湖居士」，後朋友皆簡稱我為「月湖」，也就逐漸成為自已的暱稱。
         </p>
       </section>
-    </article>
-    <article>
+    </section>
+    <section class="block">
       <section>
         <p>感謝</p>
         <p>
@@ -189,7 +189,7 @@
           我還挺喜歡擬紙材質的背景呢。w
         </p>
       </section>
-    </article>
+    </section>
     <footer>
       | <router-link to="/">English</router-link> | 中文 |
     </footer>

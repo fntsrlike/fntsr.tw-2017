@@ -6,7 +6,7 @@
     <div class="divider">
       OpenSource Projects
     </div>
-    <article>
+    <section class="block">
       <h2>#01 Ninde Grid Judge System (九宮格審題系統)</h2>
       <ul>
         <li>Github Page: <a target="_blank" href="https://github.com/fntsrlike/nine-grids-judge">https://github.com/fntsrlike/nine-grids-judge</a></li>
@@ -34,8 +34,8 @@
           <img class="screenshot" src="../assets/images/ng_4_o.png"/>
         </a>
       </div>
-    </article>
-    <article>
+    </section>
+    <section class="block">
       <h2>#02 Slack IRC Syncbot (Slack IRC 訊息同步機器人)</h2>
       <ul>
         <li>Github Page: <a target="_blank" href="https://github.com/fntsrlike/slack-irc-syncbot">https://github.com/fntsrlike/slack-irc-syncbot</a></li>
@@ -56,8 +56,8 @@
           <img class="screenshot" src="../assets/images/sync_2_o.png"/>
         </a>
       </div>
-    </article>
-    <article>
+    </section>
+    <section class="block">
       <h2>#03 Board Mangement System (公佈欄管理系統)</h2>
       <ul>
         <li>Github Page: <a target="_blank" href="https://github.com/fntsrlike/boards_manager">https://github.com/fntsrlike/boards_manager</a></li>
@@ -76,8 +76,8 @@
           <img class="screenshot" src="../assets/images/bms.jpg"/>
         </a>
       </div>
-    </article>
-    <article>
+    </section>
+    <section class="block">
       <h2>#04 Appeal Managemen System (案件管理系統)</h2>
       <ul>
         <li>Github Page: <a target="_blank" href="https://github.com/fntsrlike/appeal_system">https://github.com/fntsrlike/appeal_system</a></li>
@@ -95,11 +95,11 @@
           <img class="screenshot" src="../assets/images/appeal.jpg"/>
         </a>
       </div>
-    </article>
+    </section>
     <div class="divider">
       Group Projects
     </div>
-    <article>
+    <section class="block">
       <h2>#07 NCHUSG Official Website (國立中興大學學生會網站)</h2>
       <ul>
         <li>Link: <a target="_blank" href="https://nchusg.org">https://nchusg.org</a></li>
@@ -120,8 +120,8 @@
           <img class="screenshot" src="../assets/images/nchusg_o.png"/>
         </a>
       </div>
-    </article>
-    <article>
+    </section>
+    <section class="block">
       <h2>#05 Business Statics System (業務統計系統)</h2>
       <ul>
         <li>Private</li>
@@ -139,8 +139,8 @@
           <img class="screenshot" src="../assets/images/fss_o.png"/>
         </a>
       </div>
-    </article>
-    <article>
+    </section>
+    <section class="block">
       <h2>#06 Book Search System (尋書系統)</h2>
       <ul>
         <li>Private</li>
@@ -153,8 +153,8 @@
       <p>
         本專案主要是協助重構原本向其他單位交流所得的程式，改寫成現有單位適合的流程。且將原本重覆性極高的程式，轉換成函式與模組，增強重用性。
       </p>
-    </article>
-    <article>
+    </section>
+    <section class="block">
       <h2>#08 Room Borrow System (研究小間、讀者討論室借用系統)</h2>
       <ul>
         <li>Link: <a target="_blank" href="http://class.lib.nchu.edu.tw/lib/order.php">http://class.lib.nchu.edu.tw/lib/order.php</a></li>
@@ -172,8 +172,8 @@
           <img class="screenshot" src="../assets/images/rbs_o.png"/>
         </a>
       </div>
-    </article>
-    <article>
+    </section>
+    <section class="block">
       <h2>#09 New Fantasy Field, BBS of WHSH (國立文華高中 BBS 校站)</h2>
       <ul>
         <li>Closing</li>
@@ -191,9 +191,9 @@
           <img class="screenshot" src="../assets/images/nf_o.png"/>
         </a>
       </div>
-    </article>
+    </section>
     <footer>
-      
+      | <router-link to="/">Home</router-link> | Collections |
     </footer>
   </div>
 </template>
@@ -209,4 +209,31 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+.gallery {
+  width: 627px;
+  margin: 0 auto;
+}
+
+.screenshot {
+  width: 150px;
+  height: 112.5px;
+  margin: 0 2px;
+}
+
+.divider {
+  background: rgba(255,255,255,0.5);
+  margin: 20px auto;
+  padding: 10px 20px;
+  box-shadow: silver 0 0 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.slogan {
+  margin: 0 auto;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 1.5em;
+}
 </style>
