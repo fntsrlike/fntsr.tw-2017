@@ -22,6 +22,11 @@ export default new Router({
       path: '/collections',
       name: 'Collections',
       component: Collections
+    },
+    {
+      path: '*',
+      name: '404',
+      component: Profiles
     }
   ]
 })
