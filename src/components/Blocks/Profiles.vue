@@ -1,35 +1,37 @@
 <template>
   <section class="block">
     <img class="avatar" src="http://www.gravatar.com/avatar/c6f3d51bca936e1d0ab0ee9e091545f9.jpg?s=100&r=g" />
-    <p>It's is fntsr.tw, a page of mine.</p>
     <section>
       <p>
-        I am Shu-Wei Lin <small>(林書緯)</small>, <br/> a.k.a Ruoshi <small>(若虛)</small>, Yuehu<small>(月湖)</small>.
+        I am Lin, Shu-Wei <small>(林書緯)</small>, <br/> a.k.a Ruoshi <small>(若虛)</small>, Yuehu <small>(月湖)</small>.
       </p>
       <p>
-        I am a programmer. Love to develop web application to help life and work be easier. I also enjoy studying history.
+        I am a programmer.
+      </p>
+      <p>
+        Love to develop application to promote knowledge. I am also intrested in history and natural medicine.
       </p>
     </section>
     <section class="relative-icon">
-      <a id="mail-icon" target="_blank" href="mailto:me@fntsr.tw" title="mail">
-        <i class="fa fa-at"></i>
+      <a id="mail-icon" target="_blank" href="mailto:me[at]fntsr.tw" title="E-mail address">
+        <i class="fa fa-envelope-o"></i>
       </a>
-        <a id="blog-icon" target="_blank" href="http://blog.fntsr.tw/" title="blog">
-        <i class="fa fa-pencil-square"></i>
+        <a id="blog-icon" target="_blank" href="http://blog.fntsr.tw/" title="Blog">
+        <i class="fa fa-wordpress"></i>
       </a>
-        <a id="github-icon" target="_blank" href="https://github.com/fntsrlike">
+        <a id="github-icon" target="_blank" href="https://github.com/fntsrlike" title="GitHub profiles">
         <i class="fa fa-github-square"></i>
       </a>
-        <a id="twitter-icon" target="_blank" href="https://twitter.com/fntsrlike">
+        <a id="twitter-icon" target="_blank" href="https://twitter.com/fntsrlike" title="Twitter profiles">
         <i class="fa fa-twitter-square"></i>
       </a>
-        <a id="fb-icon" target="_blank" href="https://www.facebook.com/profile.php?id=100006699756364">
+        <a id="fb-icon" target="_blank" href="https://www.facebook.com/fntsr" title="Facebook profiles">
         <i class="fa fa-facebook-square"></i>
       </a>
-        <a id="linkedin-icon" target="_blank" href="https://www.linkedin.com/profile/view?id=350737072">
+        <a id="linkedin-icon" target="_blank" href="https://www.linkedin.com/in/fntsrlike/" title="LinkedIn profiles">
         <i class="fa fa-linkedin-square"></i>
       </a>
-        <a id="slideshare-icon" target="_blank" href="http://www.slideshare.net/ruoshiling">
+        <a id="slideshare-icon" target="_blank" href="http://www.slideshare.net/ruoshiling" title="SlideShare profiles">
         <i class="fa fa-slideshare"></i>
       </a>
     </section>
@@ -54,15 +56,15 @@ export default {
 }
 
 #mail-icon :hover {
-  color: rgb(66, 133, 244);
+  color: rgb(255, 51, 51);
 }
 
 #blog-icon :hover {
-  color: rgb(6, 122, 182);
+  color: rgb(51, 51, 51);
 }
 
 #github-icon :hover {
-  color: rgb(51, 51, 51);
+  color: rgb(0, 0, 0);
 }
 
 #twitter-icon :hover {
