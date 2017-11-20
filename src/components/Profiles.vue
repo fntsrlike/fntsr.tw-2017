@@ -1,7 +1,6 @@
 <template>
   <div class="container">
     <my-introduction></my-introduction>
-    <my-nickname></my-nickname>
     <thanks-for></thanks-for>
   </div>
 </template>
@@ -13,7 +12,6 @@ import Professional from './Blocks/Professional'
 import Education from './Blocks/Education'
 import Experience from './Blocks/Experience'
 import Projects from './Blocks/Projects'
-import Nickname from './Blocks/Nickname'
 import Thanks from './Blocks/Thanks'
 
 export default {
@@ -25,7 +23,6 @@ export default {
     'my-education': Education,
     'my-experience': Experience,
     'my-projects': Projects,
-    'my-nickname': Nickname,
     'thanks-for': Thanks
   },
   data () {
