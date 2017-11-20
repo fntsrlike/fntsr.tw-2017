@@ -7,9 +7,6 @@
     <my-projects></my-projects>
     <my-nickname></my-nickname>
     <thanks-for></thanks-for>
-    <footer>
-      | English | <router-link to="/zh">中文</router-link> |
-    </footer>
   </div>
 </template>
 

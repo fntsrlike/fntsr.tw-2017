@@ -192,9 +192,6 @@
         </a>
       </div>
     </section>
-    <footer>
-      | <router-link to="/">Home</router-link> | Collections |
-    </footer>
   </div>
 </template>
 

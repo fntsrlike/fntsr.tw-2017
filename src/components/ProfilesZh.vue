@@ -190,9 +190,6 @@
         </p>
       </section>
     </section>
-    <footer>
-      | <router-link to="/">English</router-link> | 中文 |
-    </footer>
   </div>
 </template>
 

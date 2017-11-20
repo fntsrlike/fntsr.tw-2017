@@ -1,6 +1,11 @@
 <template>
   <div id="app">
     <router-view/>
+    <footer class="footer">
+      | <router-link to="/">English </router-link>
+      | <router-link to="/zh">中文</router-link>
+      |
+    </footer>
   </div>
 </template>
 
