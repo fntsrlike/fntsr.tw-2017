@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <my-introduction></my-introduction>
+    <my-announcement></my-announcement>
     <thanks-for></thanks-for>
   </div>
 </template>
@@ -8,6 +9,7 @@
 <script>
 import Nav from './Navigation'
 import Introduction from './Blocks/Introduction'
+import Announcement from './Blocks/Announcement'
 import Professional from './Blocks/Professional'
 import Education from './Blocks/Education'
 import Experience from './Blocks/Experience'
@@ -19,6 +21,7 @@ export default {
   components: {
     'the-nav': Nav,
     'my-introduction': Introduction,
+    'my-announcement': Announcement,
     'my-professional': Professional,
     'my-education': Education,
     'my-experience': Experience,
