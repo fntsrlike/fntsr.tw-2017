@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <my-profiles></my-profiles>
+    <my-introduction></my-introduction>
     <my-nickname></my-nickname>
     <thanks-for></thanks-for>
   </div>
@@ -8,7 +8,7 @@
 
 <script>
 import Nav from './Navigation'
-import Profiles from './Blocks/Profiles'
+import Introduction from './Blocks/Introduction'
 import Professional from './Blocks/Professional'
 import Education from './Blocks/Education'
 import Experience from './Blocks/Experience'
@@ -20,7 +20,7 @@ export default {
   name: 'Profiles',
   components: {
     'the-nav': Nav,
-    'my-profiles': Profiles,
+    'my-introduction': Introduction,
     'my-professional': Professional,
     'my-education': Education,
     'my-experience': Experience,
