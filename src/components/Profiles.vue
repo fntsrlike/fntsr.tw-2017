@@ -11,6 +11,7 @@
 </template>
 
 <script>
+import Nav from './Navigation'
 import Profiles from './Blocks/Profiles'
 import Professional from './Blocks/Professional'
 import Education from './Blocks/Education'
@@ -22,6 +23,7 @@ import Thanks from './Blocks/Thanks'
 export default {
   name: 'Profiles',
   components: {
+    'the-nav': Nav,
     'my-profiles': Profiles,
     'my-professional': Professional,
     'my-education': Education,

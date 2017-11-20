@@ -1,6 +1,10 @@
 <template>
   <div id="app">
-    <router-view/>
+    <div class="slogan">
+      <router-view name="slogan"></router-view>
+    </div>
+    <the-nav></the-nav>
+    <router-view></router-view>
     <footer class="footer">
       | <router-link to="/">English </router-link>
       | <router-link to="/zh">中文</router-link>
@@ -10,8 +14,12 @@
 </template>
 
 <script>
+import Nav from './components/Navigation'
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    'the-nav': Nav
+  }
 }
 </script>
 

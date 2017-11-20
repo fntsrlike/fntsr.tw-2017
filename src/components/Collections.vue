@@ -1,8 +1,5 @@
 <template>
   <div class="container" style="max-width:700px;">
-    <div class="slogan">
-      Push commits a day, keep issues away.
-    </div>
     <div class="divider">
       OpenSource Projects
     </div>
@@ -196,8 +193,13 @@
 </template>
 
 <script>
+import Nav from './Navigation'
+
 export default {
   name: 'Profiles',
+  components: {
+    'the-nav': Nav
+  },
   data () {
     return {}
   }
