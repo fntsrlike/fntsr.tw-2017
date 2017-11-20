@@ -1,6 +1,9 @@
 <template>
   <section class="block">
-    Ruby / Ruby on Rails / PHP / Laravel / JavaScript / node.js / HTML / CSS / C# / Docker / Git / MySQL / PostgreSQL
+    <h2>Professional</h2>
+    <p>
+      Ruby / Ruby on Rails / PHP / Laravel / JavaScript / node.js / HTML / CSS / C# / Docker / Git / MySQL / PostgreSQL
+    </p>
   </section>
 </template>
 

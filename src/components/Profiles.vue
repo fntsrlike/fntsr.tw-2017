@@ -1,10 +1,6 @@
 <template>
-  <div class="container">    
+  <div class="container">
     <my-profiles></my-profiles>
-    <my-professional></my-professional>
-    <my-education></my-education>
-    <my-experience></my-experience>
-    <my-projects></my-projects>
     <my-nickname></my-nickname>
     <thanks-for></thanks-for>
   </div>

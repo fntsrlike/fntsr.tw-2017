@@ -1,5 +1,6 @@
 <template>
   <section class="block">
+    <h2>Projects</h2>
     <section>
       <p>
         Except above, I also take the cases and develop by myself. I create some personal projects for intresting and practice skill, too.

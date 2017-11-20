@@ -38,6 +38,14 @@ export default new Router({
       }
     },
     {
+      path: '/cv',
+      name: 'CurriculumVitae',
+      components: {
+        default: CurriculumVitae,
+        slogan: sloganTemplate('Keep Improving')
+      }
+    },
+    {
       path: '*',
       name: '404',
       redirect: '/'

@@ -1,5 +1,6 @@
 <template>
   <section class="block">
+    <h2>Education</h2>
     I have been studying history, but also learning programming. After graduating from university, I study software engineering.
     <ul>
       <li>
