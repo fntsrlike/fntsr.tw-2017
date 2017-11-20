@@ -229,11 +229,4 @@ export default {
   text-align: center;
   font-weight: bold;
 }
-
-.slogan {
-  margin: 0 auto;
-  padding: 10px 20px;
-  text-align: center;
-  font-size: 1.5em;
-}
 </style>
