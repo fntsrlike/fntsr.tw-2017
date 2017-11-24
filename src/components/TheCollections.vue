@@ -36,15 +36,11 @@
 </template>
 
 <script>
-import Nav from './Navigation'
 import Data from '../data/data.json'
 const ImagePathToUrl = require.context('../assets/images', true)
 
 export default {
-  name: 'Profiles',
-  components: {
-    'the-nav': Nav
-  },
+  name: 'TheCollections',
   data () {
     return {
       data: Data

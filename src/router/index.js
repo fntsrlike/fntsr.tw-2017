@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Profiles from '@/components/Profiles'
-import ProfilesZh from '@/components/ProfilesZh'
-import Collections from '@/components/Collections'
-import CurriculumVitae from '@/components/CurriculumVitae'
+import TheProfiles from '@/components/TheProfiles'
+import TheProfilesZh from '@/components/TheProfilesZh'
+import TheCollections from '@/components/TheCollections'
+import TheCurriculumVitae from '@/components/TheCurriculumVitae'
 
 Vue.use(Router)
 
@@ -17,7 +17,7 @@ export default new Router({
       path: '/',
       name: 'Profiles',
       components: {
-        default: Profiles,
+        default: TheProfiles,
         slogan: sloganTemplate('The Right Way is following The Heart.')
       }
     },
@@ -25,7 +25,7 @@ export default new Router({
       path: '/zh',
       name: 'ProfilesZh',
       components: {
-        default: ProfilesZh,
+        default: TheProfilesZh,
         slogan: sloganTemplate('從心所行即是正路')
       }
     },
@@ -33,7 +33,7 @@ export default new Router({
       path: '/collections',
       name: 'Collections',
       components: {
-        default: Collections,
+        default: TheCollections,
         slogan: sloganTemplate('Push commits a day, keep issues away.')
       }
     },
@@ -41,7 +41,7 @@ export default new Router({
       path: '/cv',
       name: 'CurriculumVitae',
       components: {
-        default: CurriculumVitae,
+        default: TheCurriculumVitae,
         slogan: sloganTemplate('Keep Improving')
       }
     },

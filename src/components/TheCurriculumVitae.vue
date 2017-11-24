@@ -13,16 +13,14 @@
 </template>
 
 <script>
-import Nav from './Navigation'
 import SectionProfessional from './sections/SectionProfessional'
 import SectionEducation from './sections/SectionEducation'
 import SectionExperience from './sections/SectionExperience'
 import SectionProjects from './sections/SectionProjects'
 
 export default {
-  name: 'CurriculumVitae',
+  name: 'TheCurriculumVitae',
   components: {
-    'the-nav': Nav,
     'section-professional': SectionProfessional,
     'section-education': SectionEducation,
     'section-experience': SectionExperience,

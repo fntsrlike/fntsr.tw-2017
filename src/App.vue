@@ -14,11 +14,11 @@
 </template>
 
 <script>
-import Nav from './components/Navigation'
+import TheNav from './components/TheNavigation'
 export default {
   name: 'app',
   components: {
-    'the-nav': Nav
+    'the-nav': TheNav
   }
 }
 </script>

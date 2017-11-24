@@ -7,15 +7,13 @@
 </template>
 
 <script>
-import Nav from './Navigation'
 import SectionIntroduction from './sections/SectionIntroduction'
 import SectionAnnouncement from './sections/SectionAnnouncement'
 import SectionThanks from './sections/SectionThanks'
 
 export default {
-  name: 'Profiles',
+  name: 'TheProfiles',
   components: {
-    'the-nav': Nav,
     'section-introduction': SectionIntroduction,
     'section-announcement': SectionAnnouncement,
     'section-thanks': SectionThanks

@@ -195,7 +195,7 @@
 
 <script>
 export default {
-  name: 'Profiles',
+  name: 'TheProfilesZh',
   data () {
     return {}
   }
