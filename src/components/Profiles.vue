@@ -1,32 +1,24 @@
 <template>
   <div class="container">
-    <my-introduction></my-introduction>
-    <my-announcement></my-announcement>
-    <thanks-for></thanks-for>
+    <section-introduction></section-introduction>
+    <section-announcement></section-announcement>
+    <section-thanks></section-thanks>
   </div>
 </template>
 
 <script>
 import Nav from './Navigation'
-import Introduction from './Blocks/Introduction'
-import Announcement from './Blocks/Announcement'
-import Professional from './Blocks/Professional'
-import Education from './Blocks/Education'
-import Experience from './Blocks/Experience'
-import Projects from './Blocks/Projects'
-import Thanks from './Blocks/Thanks'
+import SectionIntroduction from './sections/SectionIntroduction'
+import SectionAnnouncement from './sections/SectionAnnouncement'
+import SectionThanks from './sections/SectionThanks'
 
 export default {
   name: 'Profiles',
   components: {
     'the-nav': Nav,
-    'my-introduction': Introduction,
-    'my-announcement': Announcement,
-    'my-professional': Professional,
-    'my-education': Education,
-    'my-experience': Experience,
-    'my-projects': Projects,
-    'thanks-for': Thanks
+    'section-introduction': SectionIntroduction,
+    'section-announcement': SectionAnnouncement,
+    'section-thanks': SectionThanks
   },
   data () {
     return {}

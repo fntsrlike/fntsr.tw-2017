@@ -40,7 +40,7 @@
 
 <script>
 export default {
-  name: 'Profiles'
+  name: 'SectionProfiles'
 }
 </script>
 

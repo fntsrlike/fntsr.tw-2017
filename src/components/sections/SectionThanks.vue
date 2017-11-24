@@ -13,7 +13,7 @@
 
 <script>
 export default {
-  name: 'Thanks'
+  name: 'SectionThanks'
 }
 </script>
 

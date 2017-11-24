@@ -5,28 +5,28 @@
       This is my curriculum vitae, if you wanna see my Resume, click here to download.
     </p>
   </section>
-  <my-professional></my-professional>
-  <my-education></my-education>
-  <my-experience></my-experience>
-  <my-projects></my-projects>
+  <section-professional></section-professional>
+  <section-education></section-education>
+  <section-experience></section-experience>
+  <section-projects></section-projects>
 </div>
 </template>
 
 <script>
 import Nav from './Navigation'
-import Professional from './Blocks/Professional'
-import Education from './Blocks/Education'
-import Experience from './Blocks/Experience'
-import Projects from './Blocks/Projects'
+import SectionProfessional from './sections/SectionProfessional'
+import SectionEducation from './sections/SectionEducation'
+import SectionExperience from './sections/SectionExperience'
+import SectionProjects from './sections/SectionProjects'
 
 export default {
   name: 'CurriculumVitae',
   components: {
     'the-nav': Nav,
-    'my-professional': Professional,
-    'my-education': Education,
-    'my-experience': Experience,
-    'my-projects': Projects
+    'section-professional': SectionProfessional,
+    'section-education': SectionEducation,
+    'section-experience': SectionExperience,
+    'section-projects': SectionProjects
   },
   data () {
     return {}

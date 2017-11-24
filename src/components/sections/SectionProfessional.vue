@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: 'Professional'
+  name: 'SectionProfessional'
 }
 </script>
 
