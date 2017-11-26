@@ -1,6 +1,6 @@
 <template>
   <section class="block">
-    <h2>Experience</h2>
+    <h2>Speach Experiences</h2>
     <ul>
       <li v-for="(experience, index) in experiences" :key="experience.id">
           <span v-html="experience.name.join(' ')"></span>
@@ -22,13 +22,13 @@
 </template>
 
 <script>
-import ExperiencesData from '../../data/dist/experiences.json'
+import SpeachExperiencesData from '../../data/dist/speech_experiences.json'
 
 export default {
-  name: 'SectionExperience',
+  name: 'SectionSpeachExperiences',
   data () {
     return {
-      experiences: ExperiencesData
+      experiences: SpeachExperiencesData
     }
   }
 }

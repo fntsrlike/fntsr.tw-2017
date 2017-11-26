@@ -1,13 +1,3 @@
-- id: OOLab
-  name:
-    - A member
-    - of <a target="_blank" href="http://oolab.csie.ncu.edu.tw/wiki/index.php">OOLab</a>
-    - of <a target="_blank" href="http://www.ncu.edu.tw/">NCU</a>
-    - (2014-2016)
-  links:
-    slides:
-    video:
-    ticket:
 - id: PHPConf2015
   name:
     - A speaker
@@ -48,22 +38,5 @@
     - at <a target="_blank" href="http://www.yuntech.edu.tw/">YunTech</a>
   links:
     slides: http://www.slideshare.net/ruoshiling/ss-48925329
-    video:
-    ticket:
-- id: EZTABLE
-  name:
-    - A 2014 summer inten
-    - of <a target="_blank" href="http://www.eztable.com/">EZTABLE</a>.
-  links:
-    slides:
-    video:
-    ticket:
-- id: NCHU-EECSeC
-  name:
-    - The founder
-    - of <a target="_blank" href="https://nchueecsec.github.io/">NCHU EECSeC</a>
-    - (Merged with <a target="_blank" href="https://nchuit.github.io/">NCHUIT</a>)
-  links:
-    slides:
     video:
     ticket:

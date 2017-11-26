@@ -9,7 +9,7 @@
     "start": "npm run dev",
     "build": "node build/build.js",
     "lint": "eslint --ext .js,.vue src",
-    "data": "any-json src/data/src/collections.yaml src/data/dist/collections.json && any-json src/data/src/experiences.yaml src/data/dist/experiences.json"
+    "data": "any-json src/data/src/collections.yaml src/data/dist/collections.json && any-json src/data/src/speech_experiences.yaml src/data/dist/speech_experiences.json"
   },
   "dependencies": {
     "vue": "^2.5.2",

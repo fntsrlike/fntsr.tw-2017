@@ -7,7 +7,7 @@
   </section>
   <section-professional></section-professional>
   <section-education></section-education>
-  <section-experience></section-experience>
+  <section-speech-experiences></section-speech-experiences>
   <section-organizations></section-organizations>
   <section-projects></section-projects>
   <section-awards></section-awards>
@@ -18,7 +18,7 @@
 <script>
 import SectionProfessional from './sections/SectionProfessional'
 import SectionEducation from './sections/SectionEducation'
-import SectionExperience from './sections/SectionExperience'
+import SectionSpeachExperiences from './sections/SectionSpeachExperiences'
 import SectionOrganizations from './sections/SectionOrganizations'
 import SectionProjects from './sections/SectionProjects'
 import SectionAwards from './sections/SectionAwards'
@@ -29,7 +29,7 @@ export default {
   components: {
     'section-professional': SectionProfessional,
     'section-education': SectionEducation,
-    'section-experience': SectionExperience,
+    'section-speech-experiences': SectionSpeachExperiences,
     'section-organizations': SectionOrganizations,
     'section-projects': SectionProjects,
     'section-awards': SectionAwards,
