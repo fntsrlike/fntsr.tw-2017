@@ -3,13 +3,13 @@
     <section class="block">
       <h2>目錄</h2>
       <ol class="menu">
-        <li v-for="(collection, index) in data.collections" :key="collection.id">
+        <li v-for="(collection, index) in collections" :key="collection.id">
           {{collection.name}}
         </li>
       </ol>
     </section>
     <div class="collections">
-      <section class="block" v-for="collection in data.collections" :key="collection.id">
+      <section class="block" v-for="collection in collections" :key="collection.id">
         <h2 class="collection-name">{{collection.name}}</h2>
         <ul>
           <li v-if="collection.links.source">
@@ -36,14 +36,14 @@
 </template>
 
 <script>
-import Data from '../data/data.json'
+import CollectionsData from '../data/dist/collections.json'
 const ImagePathToUrl = require.context('../assets/images', true)
 
 export default {
   name: 'TheCollections',
   data () {
     return {
-      data: Data
+      collections: CollectionsData
     }
   },
   methods: {
