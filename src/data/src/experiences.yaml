@@ -1,0 +1,69 @@
+- id: OOLab
+  name:
+    - A member
+    - of <a target="_blank" href="http://oolab.csie.ncu.edu.tw/wiki/index.php">OOLab</a>
+    - of <a target="_blank" href="http://www.ncu.edu.tw/">NCU</a>
+    - (2014-2016)
+  links:
+    slides:
+    video:
+    ticket:
+- id: PHPConf2015
+  name:
+    - A speaker
+    - at <a target="_blank" href="http://2015.phpconf.tw">PHPConf 2015</a>
+  links:
+    slides: https://www.slideshare.net/ruoshiling/ship-your-projects-with-docker-ecosystem
+    video: https://www.youtube.com/watch?v=B0Xw38EkFf8
+    ticket:
+- id: PHPConf2014
+  name:
+    - A speaker
+    - at <a target="_blank" href="http://2014.phpconf.tw">PHPConf 2014</a>
+  links:
+    slides: http://www.slideshare.net/ruoshiling/how-to-deploy-php-projects-with-docker
+    video: https://www.youtube.com/watch?v=Y5Gvk0mutZ4
+    ticket:
+- id: NCUNOS
+  name:
+    - A speaker
+    - at <a target="_blank" href="http://nos.ncu.cc">Network & Open Source Club</a>
+    - of <a target="_blank" href="http://www.ncu.edu.tw/">NCU</a>
+  links:
+    slides: http://www.slideshare.net/ruoshiling/docker-48710374
+    video:
+    ticket: http://nos.kktix.cc/events/d1fe178c
+- id: NTUST
+  name:
+    - A speaker
+    - at <a target="_blank" href="http://www.ntust.edu.tw/">Coding Club</a>
+    - of <a target="_blank" href="http://www.ntust.edu.tw/">NTUST</a>
+  links:
+    slides:
+    video:
+    ticket: http://ntust-coding-club.kktix.cc/events/ntust-docker
+- id: YunTech
+  name:
+    - A speaker
+    - at <a target="_blank" href="http://www.yuntech.edu.tw/">YunTech</a>
+  links:
+    slides: http://www.slideshare.net/ruoshiling/ss-48925329
+    video:
+    ticket:
+- id: EZTABLE
+  name:
+    - A 2014 summer inten
+    - of <a target="_blank" href="http://www.eztable.com/">EZTABLE</a>.
+  links:
+    slides:
+    video:
+    ticket:
+- id: NCHU-EECSeC
+  name:
+    - The founder
+    - of <a target="_blank" href="https://nchueecsec.github.io/">NCHU EECSeC</a>
+    - (Merged with <a target="_blank" href="https://nchuit.github.io/">NCHUIT</a>)
+  links:
+    slides:
+    video:
+    ticket:
