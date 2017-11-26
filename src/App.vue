@@ -6,9 +6,7 @@
     <the-nav></the-nav>
     <router-view></router-view>
     <footer class="footer">
-      | <router-link to="/">English </router-link>
-      | <router-link to="/zh">中文</router-link>
-      |
+      <!-- TODO: i18n -->
     </footer>
   </div>
 </template>
