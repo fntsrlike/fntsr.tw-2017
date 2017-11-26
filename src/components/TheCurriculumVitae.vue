@@ -9,6 +9,7 @@
   <section-education></section-education>
   <section-experience></section-experience>
   <section-projects></section-projects>
+  <section-languages></section-languages>
 </div>
 </template>
 
@@ -17,6 +18,7 @@ import SectionProfessional from './sections/SectionProfessional'
 import SectionEducation from './sections/SectionEducation'
 import SectionExperience from './sections/SectionExperience'
 import SectionProjects from './sections/SectionProjects'
+import SectionLanguages from './sections/SectionLanguages'
 
 export default {
   name: 'TheCurriculumVitae',
@@ -24,7 +26,8 @@ export default {
     'section-professional': SectionProfessional,
     'section-education': SectionEducation,
     'section-experience': SectionExperience,
-    'section-projects': SectionProjects
+    'section-projects': SectionProjects,
+    'section-languages': SectionLanguages
   },
   data () {
     return {}
