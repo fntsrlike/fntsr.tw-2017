@@ -9,6 +9,7 @@
   <section-education></section-education>
   <section-experience></section-experience>
   <section-projects></section-projects>
+  <section-awards></section-awards>
   <section-languages></section-languages>
 </div>
 </template>
@@ -18,6 +19,7 @@ import SectionProfessional from './sections/SectionProfessional'
 import SectionEducation from './sections/SectionEducation'
 import SectionExperience from './sections/SectionExperience'
 import SectionProjects from './sections/SectionProjects'
+import SectionAwards from './sections/SectionAwards'
 import SectionLanguages from './sections/SectionLanguages'
 
 export default {
@@ -27,6 +29,7 @@ export default {
     'section-education': SectionEducation,
     'section-experience': SectionExperience,
     'section-projects': SectionProjects,
+    'section-awards': SectionAwards,
     'section-languages': SectionLanguages
   },
   data () {
