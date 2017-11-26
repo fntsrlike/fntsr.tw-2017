@@ -78,6 +78,20 @@
     - "這是一個用來宣導自殺防治的相關網站，案主的希望能有用成內容管理器，讓他們自行增修內容，但又不太希望負擔伺服器維護費用，所以這個專案我使用 GitHub Pages 作為 Host，搭配 Firebase 做為資料庫，以達成案主的需求。"
     - "案主在事後誇讚介面很好上手，讓他們行政人員不太需要花時間去學習，就能簡單的使用該網站。"
   screenshots:
+- id: meder_book
+  name: MeDer Book（臉書塗鴉牆解析再製程式）
+  from: "1970-01-01"
+  to: "1970-01-01"
+  links:
+    source:
+    demo:
+  languages:
+    - Ruby
+  frameworks:
+    - Ruby on Rails
+  description:
+    - ""
+  screenshots:
 - id: morse-code
   name: Morse Code（摩斯電碼編解碼工具）
   from: "1970-01-01"
@@ -124,6 +138,35 @@
   screenshots:
     - "./sync_1_o.png"
     - "./sync_2_o.png"
+- id: isr2013
+  name: "ISR 2013: Burning Civilization"
+  from: "1970-01-01"
+  to: "1970-01-01"
+  links:
+    source:
+    demo:
+  languages:
+    - Lua
+  frameworks:
+    - Love
+  description:
+    - ""
+  screenshots:
+- id: npps-59-607
+  name: NPPS 59 607（內埔國小五十九屆六年庚班班級網頁 復刻版）
+  from: "1970-01-01"
+  to: "1970-01-01"
+  links:
+    source:
+    demo:
+  languages:
+    - JavaScript
+    - HTML
+    - CSS
+  frameworks:
+  description:
+    - ""
+  screenshots:
 - id: board-manger-system
   name: Board Mangement System (公佈欄管理系統)
   from: "1970-01-01"
