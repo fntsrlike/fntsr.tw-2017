@@ -8,6 +8,7 @@
     "dev": "node build/dev-server.js",
     "start": "npm run dev",
     "build": "node build/build.js",
+    "deploy": "gh-pages -b master -d dist",
     "lint": "eslint --ext .js,.vue src",
     "data": "any-json src/data/src/collections.yaml src/data/dist/collections.json && any-json src/data/src/speech_experiences.yaml src/data/dist/speech_experiences.json"
   },
@@ -43,6 +44,7 @@
     "extract-text-webpack-plugin": "^3.0.0",
     "file-loader": "^1.1.4",
     "friendly-errors-webpack-plugin": "^1.6.1",
+    "gh-pages": "^1.1.0",
     "html-webpack-plugin": "^2.30.1",
     "http-proxy-middleware": "^0.17.3",
     "opn": "^5.1.0",
