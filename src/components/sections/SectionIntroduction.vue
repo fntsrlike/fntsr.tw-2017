@@ -16,7 +16,7 @@
       <a id="mail-icon" target="_blank" href="mailto:me[at]fntsr.tw" title="E-mail address">
         <i class="fa fa-envelope-o"></i>
       </a>
-        <a id="blog-icon" target="_blank" href="http://blog.fntsr.tw/" title="Blog">
+        <a id="blog-icon" target="_blank" href="https://blog.fntsr.tw/" title="Blog">
         <i class="fa fa-wordpress"></i>
       </a>
         <a id="github-icon" target="_blank" href="https://github.com/fntsrlike" title="GitHub profiles">
